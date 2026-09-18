@@ -1,0 +1,113 @@
+:root {
+  color-scheme: light dark;
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #666666;
+  --border: #dddddd;
+  --row-alt: #f7f7f7;
+  --yes: #1a7f37;
+  --no: #b42318;
+  --unknown: #8a6d00;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #16181c;
+    --fg: #e8e8e8;
+    --muted: #9a9a9a;
+    --border: #33363b;
+    --row-alt: #1d2024;
+    --yes: #4fb266;
+    --no: #e5695c;
+    --unknown: #d1b23a;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+}
+
+header h1 {
+  font-size: 1.4rem;
+  margin-bottom: 0.25rem;
+}
+
+.meta {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+#filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.25rem 0;
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.85rem;
+}
+
+.filter label { color: var(--muted); }
+
+.filter input, .filter select {
+  padding: 0.35rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--fg);
+  font-size: 0.9rem;
+}
+
+.filter input[type="number"] { width: 5.5rem; }
+
+.checkbox-filter { justify-content: flex-end; }
+.checkbox-filter label { display: flex; align-items: center; gap: 0.4rem; color: var(--fg); }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+thead th {
+  text-align: left;
+  border-bottom: 2px solid var(--border);
+  padding: 0.5rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+tbody tr:nth-child(even) { background: var(--row-alt); }
+
+td {
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+a { color: inherit; }
+
+.ku-badge {
+  font-weight: 600;
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+}
+
+.ku-yes { color: var(--yes); }
+.ku-no { color: var(--no); }
+.ku-unknown { color: var(--unknown); }

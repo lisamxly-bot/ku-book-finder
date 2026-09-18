@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KU Book Finder</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>KU Book Finder</h1>
+  <p id="generated-at" class="meta"></p>
+</header>
+
+<section id="filters">
+  <div class="filter">
+    <label for="genre">Genre</label>
+    <select id="genre">
+      <option value="all">All</option>
+      <option value="Romance">Romance</option>
+      <option value="Comedy">Comedy</option>
+    </select>
+  </div>
+
+  <div class="filter">
+    <label for="min-rating">Min rating</label>
+    <input type="number" id="min-rating" min="1" max="5" step="0.1" value="4.0">
+  </div>
+
+  <div class="filter">
+    <label for="year-from">Published from</label>
+    <input type="number" id="year-from" step="1">
+  </div>
+
+  <div class="filter">
+    <label for="year-to">to</label>
+    <input type="number" id="year-to" step="1">
+  </div>
+
+  <div class="filter checkbox-filter">
+    <label><input type="checkbox" id="ku-only" checked> Kindle Unlimited only</label>
+  </div>
+
+  <div class="filter">
+    <label for="sort-by">Sort by</label>
+    <select id="sort-by">
+      <option value="rating">Rating (high to low)</option>
+      <option value="year">Publish year (newest first)</option>
+    </select>
+  </div>
+</section>
+
+<p id="result-count" class="meta"></p>
+
+<table id="results">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Author</th>
+      <th>Genre</th>
+      <th>Rating</th>
+      <th>Year</th>
+      <th>Kindle Unlimited</th>
+    </tr>
+  </thead>
+  <tbody id="results-body"></tbody>
+</table>
+
+<p id="empty-state" class="meta" hidden>No books match these filters.</p>
+
+<script src="app.js"></script>
+</body>
+</html>

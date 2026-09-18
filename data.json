@@ -1,0 +1,366 @@
+{
+  "generated_at": "2026-09-18T22:37:34.446222+00:00",
+  "books": [
+    {
+      "title": "Fourth Wing (The Empyrean, #1)",
+      "author": "Rebecca Yarros",
+      "genres": [
+        "Romance"
+      ],
+      "rating": 4.56,
+      "pub_year": 2023,
+      "goodreads_url": "https://www.goodreads.com/book/show/61431922-fourth-wing",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "Project Hail Mary",
+      "author": "Andy Weir",
+      "genres": [
+        "Comedy"
+      ],
+      "rating": 4.51,
+      "pub_year": 2021,
+      "goodreads_url": "https://www.goodreads.com/book/show/54493401-project-hail-mary",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "Dungeon Crawler Carl (Dungeon Crawler Carl, #1)",
+      "author": "Matt Dinniman",
+      "genres": [
+        "Comedy"
+      ],
+      "rating": 4.43,
+      "pub_year": 2020,
+      "goodreads_url": "https://www.goodreads.com/book/show/211721806-dungeon-crawler-carl",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "Heartless (Chestnut Springs, #2)",
+      "author": "Elsie Silver",
+      "genres": [
+        "Romance"
+      ],
+      "rating": 4.35,
+      "pub_year": 2022,
+      "goodreads_url": "https://www.goodreads.com/book/show/125460757-heartless",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "Just for the Summer (Part of Your World, #3)",
+      "author": "Abby Jimenez",
+      "genres": [
+        "Romance"
+      ],
+      "rating": 4.33,
+      "pub_year": 2024,
+      "goodreads_url": "https://www.goodreads.com/book/show/195820807-just-for-the-summer",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "Yours Truly (Part of Your World, #2)",
+      "author": "Abby Jimenez",
+      "genres": [
+        "Romance"
+      ],
+      "rating": 4.29,
+      "pub_year": 2023,
+      "goodreads_url": "https://www.goodreads.com/book/show/61918816-yours-truly",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "Saint Richard Parker",
+      "author": "Merlin Franco",
+      "genres": [
+        "Comedy"
+      ],
+      "rating": 4.28,
+      "pub_year": 2023,
+      "goodreads_url": "https://www.goodreads.com/book/show/198132147-saint-richard-parker",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "Lessons in Chemistry",
+      "author": "Bonnie Garmus",
+      "genres": [
+        "Comedy"
+      ],
+      "rating": 4.28,
+      "pub_year": 2022,
+      "goodreads_url": "https://www.goodreads.com/book/show/242528917-lessons-in-chemistry",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "Better Than the Movies (Better Than the Movies, #1)",
+      "author": "Lynn Painter",
+      "genres": [
+        "Romance"
+      ],
+      "rating": 4.25,
+      "pub_year": 2021,
+      "goodreads_url": "https://www.goodreads.com/book/show/55710822-better-than-the-movies",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "Part of Your World (Part of Your World, #1)",
+      "author": "Abby Jimenez",
+      "genres": [
+        "Romance"
+      ],
+      "rating": 4.24,
+      "pub_year": 2022,
+      "goodreads_url": "https://www.goodreads.com/book/show/58684524-part-of-your-world",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "The Risk (Briar U, #2)",
+      "author": "Elle Kennedy",
+      "genres": [
+        "Romance"
+      ],
+      "rating": 4.2,
+      "pub_year": 2019,
+      "goodreads_url": "https://www.goodreads.com/book/show/41032121-the-risk",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "Love and Other Words",
+      "author": "Christina Lauren",
+      "genres": [
+        "Romance"
+      ],
+      "rating": 4.19,
+      "pub_year": 2018,
+      "goodreads_url": "https://www.goodreads.com/book/show/36206591-love-and-other-words",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "Funny Story",
+      "author": "Emily Henry",
+      "genres": [
+        "Romance"
+      ],
+      "rating": 4.18,
+      "pub_year": 2024,
+      "goodreads_url": "https://www.goodreads.com/book/show/194802722-funny-story",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "From Lukov with Love",
+      "author": "Mariana Zapata",
+      "genres": [
+        "Romance"
+      ],
+      "rating": 4.18,
+      "pub_year": 2018,
+      "goodreads_url": "https://www.goodreads.com/book/show/37683751-from-lukov-with-love",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "The Happy Ever After Playlist (The Friend Zone, #2)",
+      "author": "Abby Jimenez",
+      "genres": [
+        "Romance"
+      ],
+      "rating": 4.17,
+      "pub_year": 2020,
+      "goodreads_url": "https://www.goodreads.com/book/show/50208350-the-happy-ever-after-playlist",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "Anxious People",
+      "author": "Fredrik Backman",
+      "genres": [
+        "Comedy"
+      ],
+      "rating": 4.16,
+      "pub_year": 2019,
+      "goodreads_url": "https://www.goodreads.com/book/show/49127718-anxious-people",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "The Seven Year Slip",
+      "author": "Ashley Poston",
+      "genres": [
+        "Romance"
+      ],
+      "rating": 4.14,
+      "pub_year": 2023,
+      "goodreads_url": "https://www.goodreads.com/book/show/199834495-the-seven-year-slip",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "Things We Never Got Over (Knockemout, #1)",
+      "author": "Lucy Score",
+      "genres": [
+        "Romance"
+      ],
+      "rating": 4.12,
+      "pub_year": 2022,
+      "goodreads_url": "https://www.goodreads.com/book/show/60060431-things-we-never-got-over",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "Calypso",
+      "author": "David Sedaris",
+      "genres": [
+        "Comedy"
+      ],
+      "rating": 4.1,
+      "pub_year": 2018,
+      "goodreads_url": "https://www.goodreads.com/book/show/38348476-calypso",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "The Guncle (The Guncle, #1)",
+      "author": "Steven  Rowley",
+      "genres": [
+        "Comedy"
+      ],
+      "rating": 4.1,
+      "pub_year": 2021,
+      "goodreads_url": "https://www.goodreads.com/book/show/54508798-the-guncle",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "The Love Hypothesis",
+      "author": "Ali Hazelwood",
+      "genres": [
+        "Romance"
+      ],
+      "rating": 4.09,
+      "pub_year": 2021,
+      "goodreads_url": "https://www.goodreads.com/book/show/56732449-the-love-hypothesis",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "Book Lovers",
+      "author": "Emily Henry",
+      "genres": [
+        "Romance"
+      ],
+      "rating": 4.08,
+      "pub_year": 2022,
+      "goodreads_url": "https://www.goodreads.com/book/show/58690308-book-lovers",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "Love, Theoretically",
+      "author": "Ali Hazelwood",
+      "genres": [
+        "Romance"
+      ],
+      "rating": 4.08,
+      "pub_year": 2023,
+      "goodreads_url": "https://www.goodreads.com/book/show/61326735-love-theoretically",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "Twisted Games (Twisted, #2)",
+      "author": "Ana Huang",
+      "genres": [
+        "Romance"
+      ],
+      "rating": 4.07,
+      "pub_year": 2021,
+      "goodreads_url": "https://www.goodreads.com/book/show/62056013-twisted-games",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "The Paradise Problem",
+      "author": "Christina Lauren",
+      "genres": [
+        "Romance"
+      ],
+      "rating": 4.05,
+      "pub_year": 2024,
+      "goodreads_url": "https://www.goodreads.com/book/show/199797582-the-paradise-problem",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "Red, White & Royal Blue (Red, White & Royal Blue, #1)",
+      "author": "Casey McQuiston",
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "rating": 4.04,
+      "pub_year": 2019,
+      "goodreads_url": "https://www.goodreads.com/book/show/41150487-red-white-royal-blue",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "The Rom-Commers",
+      "author": "Katherine Center",
+      "genres": [
+        "Romance"
+      ],
+      "rating": 4.04,
+      "pub_year": 2024,
+      "goodreads_url": "https://www.goodreads.com/book/show/195790586-the-rom-commers",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "Flawless (Chestnut Springs, #1)",
+      "author": "Elsie Silver",
+      "genres": [
+        "Romance"
+      ],
+      "rating": 4.0,
+      "pub_year": 2022,
+      "goodreads_url": "https://www.goodreads.com/book/show/125157226-flawless",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "A Not So Meet Cute (Cane Brothers, #1)",
+      "author": "Meghan Quinn",
+      "genres": [
+        "Romance"
+      ],
+      "rating": 4.0,
+      "pub_year": 2021,
+      "goodreads_url": "https://www.goodreads.com/book/show/58995736-a-not-so-meet-cute",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "Butcher & Blackbird (The Ruinous Love Trilogy, #1)",
+      "author": "Brynne Weaver",
+      "genres": [
+        "Romance"
+      ],
+      "rating": 4.0,
+      "pub_year": 2023,
+      "goodreads_url": "https://www.goodreads.com/book/show/196915235-butcher-blackbird",
+      "ku_status": null,
+      "last_checked": "2026-09-18"
+    }
+  ]
+}
