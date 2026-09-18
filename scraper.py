@@ -51,6 +51,8 @@ GENRE_SHELF_TAGS = {
         "epic-fantasy",
         "humorous-fantasy",
         "humourous-fantasy",
+        "fantasy",
+        "high-fantasy",
     ],
     "Rom-Com": [
         "rom-com",

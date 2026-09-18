@@ -1,10 +1,23 @@
 {
-  "generated_at": "2026-09-18T23:36:14.116587+00:00",
+  "generated_at": "2026-09-18T23:52:06.651296+00:00",
   "books": [
+    {
+      "title": "Kingdom of Ash (Throne of Glass, #7)",
+      "author": "Sarah J. Maas",
+      "genres": [
+        "Fantasy"
+      ],
+      "rating": 4.71,
+      "pub_year": 2018,
+      "goodreads_url": "https://www.goodreads.com/book/show/76715522-kingdom-of-ash",
+      "ku_status": false,
+      "last_checked": "2026-09-18"
+    },
     {
       "title": "Fourth Wing (The Empyrean, #1)",
       "author": "Rebecca Yarros",
       "genres": [
+        "Fantasy",
         "Romance"
       ],
       "rating": 4.56,
@@ -50,6 +63,18 @@
       "last_checked": "2026-09-18"
     },
     {
+      "title": "A \u200bCourt of Silver Flames (A Court of Thorns and Roses, #5)",
+      "author": "Sarah J. Maas",
+      "genres": [
+        "Fantasy"
+      ],
+      "rating": 4.45,
+      "pub_year": 2021,
+      "goodreads_url": "https://www.goodreads.com/book/show/53138095-a-court-of-silver-flames",
+      "ku_status": false,
+      "last_checked": "2026-09-18"
+    },
+    {
       "title": "Dungeon Crawler Carl (Dungeon Crawler Carl, #1)",
       "author": "Matt Dinniman",
       "genres": [
@@ -59,6 +84,18 @@
       "pub_year": 2020,
       "goodreads_url": "https://www.goodreads.com/book/show/211721806-dungeon-crawler-carl",
       "ku_status": true,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "Iron Flame (The Empyrean, #2)",
+      "author": "Rebecca Yarros",
+      "genres": [
+        "Fantasy"
+      ],
+      "rating": 4.36,
+      "pub_year": 2023,
+      "goodreads_url": "https://www.goodreads.com/book/show/90202302-iron-flame",
+      "ku_status": false,
       "last_checked": "2026-09-18"
     },
     {
@@ -121,6 +158,18 @@
       "pub_year": 2022,
       "goodreads_url": "https://www.goodreads.com/book/show/242528917-lessons-in-chemistry",
       "ku_status": false,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "The Wicked King (The Folk of the Air, #2)",
+      "author": "Holly Black",
+      "genres": [
+        "Fantasy"
+      ],
+      "rating": 4.27,
+      "pub_year": 2019,
+      "goodreads_url": "https://www.goodreads.com/book/show/26032887-the-wicked-king",
+      "ku_status": true,
       "last_checked": "2026-09-18"
     },
     {
@@ -220,6 +269,42 @@
       "pub_year": 2019,
       "goodreads_url": "https://www.goodreads.com/book/show/49127718-anxious-people",
       "ku_status": false,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "The Invisible Life of Addie LaRue",
+      "author": "V.E. Schwab",
+      "genres": [
+        "Fantasy"
+      ],
+      "rating": 4.16,
+      "pub_year": 2020,
+      "goodreads_url": "https://www.goodreads.com/book/show/50623864-the-invisible-life-of-addie-larue",
+      "ku_status": false,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "The Priory of the Orange Tree (The Roots of Chaos, #1)",
+      "author": "Samantha Shannon",
+      "genres": [
+        "Fantasy"
+      ],
+      "rating": 4.16,
+      "pub_year": 2019,
+      "goodreads_url": "https://www.goodreads.com/book/show/40275288-the-priory-of-the-orange-tree",
+      "ku_status": false,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "The Poppy War (The Poppy War, #1)",
+      "author": "R.F. Kuang",
+      "genres": [
+        "Fantasy"
+      ],
+      "rating": 4.15,
+      "pub_year": 2018,
+      "goodreads_url": "https://www.goodreads.com/book/show/35068705-the-poppy-war",
+      "ku_status": true,
       "last_checked": "2026-09-18"
     },
     {
@@ -385,6 +470,18 @@
       "pub_year": 2021,
       "goodreads_url": "https://www.goodreads.com/book/show/58995736-a-not-so-meet-cute",
       "ku_status": false,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "The Cruel Prince (The Folk of the Air, #1)",
+      "author": "Holly Black",
+      "genres": [
+        "Fantasy"
+      ],
+      "rating": 4.0,
+      "pub_year": 2018,
+      "goodreads_url": "https://www.goodreads.com/book/show/26032825-the-cruel-prince",
+      "ku_status": true,
       "last_checked": "2026-09-18"
     },
     {
