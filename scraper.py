@@ -36,7 +36,6 @@ GENRE_SHELF_TAGS = {
         "romance-novels",
         "contemporary-romance",
         "romantic-comedy",
-        "rom-com",
         "chick-lit",
         "new-adult-romance",
     ],
@@ -47,6 +46,14 @@ GENRE_SHELF_TAGS = {
         "funny",
         "comedy",
         "satire",
+    ],
+    "Fantasy": [
+        "epic-fantasy",
+        "humorous-fantasy",
+        "humourous-fantasy",
+    ],
+    "Rom-Com": [
+        "rom-com",
     ],
 }
 

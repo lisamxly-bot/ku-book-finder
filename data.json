@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T23:27:14.145328+00:00",
+  "generated_at": "2026-09-18T23:36:14.116587+00:00",
   "books": [
     {
       "title": "Fourth Wing (The Empyrean, #1)",
@@ -14,6 +14,18 @@
       "last_checked": "2026-09-18"
     },
     {
+      "title": "Rhythm of War (The Stormlight Archive, #4)",
+      "author": "Brandon Sanderson",
+      "genres": [
+        "Fantasy"
+      ],
+      "rating": 4.56,
+      "pub_year": 2020,
+      "goodreads_url": "https://www.goodreads.com/book/show/49021976-rhythm-of-war",
+      "ku_status": false,
+      "last_checked": "2026-09-18"
+    },
+    {
       "title": "Project Hail Mary",
       "author": "Andy Weir",
       "genres": [
@@ -23,6 +35,18 @@
       "pub_year": 2021,
       "goodreads_url": "https://www.goodreads.com/book/show/54493401-project-hail-mary",
       "ku_status": false,
+      "last_checked": "2026-09-18"
+    },
+    {
+      "title": "Carl's Doomsday Scenario (Dungeon Crawler Carl, #2)",
+      "author": "Matt Dinniman",
+      "genres": [
+        "Fantasy"
+      ],
+      "rating": 4.47,
+      "pub_year": 2021,
+      "goodreads_url": "https://www.goodreads.com/book/show/212393364-carl-s-doomsday-scenario",
+      "ku_status": true,
       "last_checked": "2026-09-18"
     },
     {
@@ -53,6 +77,7 @@
       "title": "Just for the Summer (Part of Your World, #3)",
       "author": "Abby Jimenez",
       "genres": [
+        "Rom-Com",
         "Romance"
       ],
       "rating": 4.33,
@@ -65,6 +90,7 @@
       "title": "Yours Truly (Part of Your World, #2)",
       "author": "Abby Jimenez",
       "genres": [
+        "Rom-Com",
         "Romance"
       ],
       "rating": 4.29,
@@ -101,6 +127,7 @@
       "title": "Better Than the Movies (Better Than the Movies, #1)",
       "author": "Lynn Painter",
       "genres": [
+        "Rom-Com",
         "Romance"
       ],
       "rating": 4.25,
@@ -113,6 +140,7 @@
       "title": "Part of Your World (Part of Your World, #1)",
       "author": "Abby Jimenez",
       "genres": [
+        "Rom-Com",
         "Romance"
       ],
       "rating": 4.24,
@@ -149,6 +177,7 @@
       "title": "Funny Story",
       "author": "Emily Henry",
       "genres": [
+        "Rom-Com",
         "Romance"
       ],
       "rating": 4.18,
@@ -173,7 +202,7 @@
       "title": "The Happy Ever After Playlist (The Friend Zone, #2)",
       "author": "Abby Jimenez",
       "genres": [
-        "Romance"
+        "Rom-Com"
       ],
       "rating": 4.17,
       "pub_year": 2020,
@@ -197,6 +226,7 @@
       "title": "The Seven Year Slip",
       "author": "Ashley Poston",
       "genres": [
+        "Rom-Com",
         "Romance"
       ],
       "rating": 4.14,
@@ -209,6 +239,7 @@
       "title": "Things We Never Got Over (Knockemout, #1)",
       "author": "Lucy Score",
       "genres": [
+        "Rom-Com",
         "Romance"
       ],
       "rating": 4.12,
@@ -245,6 +276,7 @@
       "title": "The Love Hypothesis",
       "author": "Ali Hazelwood",
       "genres": [
+        "Rom-Com",
         "Romance"
       ],
       "rating": 4.09,
@@ -257,6 +289,7 @@
       "title": "Book Lovers",
       "author": "Emily Henry",
       "genres": [
+        "Rom-Com",
         "Romance"
       ],
       "rating": 4.08,
@@ -269,6 +302,7 @@
       "title": "Love, Theoretically",
       "author": "Ali Hazelwood",
       "genres": [
+        "Rom-Com",
         "Romance"
       ],
       "rating": 4.08,
@@ -293,7 +327,7 @@
       "title": "The Paradise Problem",
       "author": "Christina Lauren",
       "genres": [
-        "Romance"
+        "Rom-Com"
       ],
       "rating": 4.05,
       "pub_year": 2024,
@@ -306,24 +340,26 @@
       "author": "Casey McQuiston",
       "genres": [
         "Comedy",
+        "Rom-Com",
         "Romance"
       ],
       "rating": 4.04,
       "pub_year": 2019,
       "goodreads_url": "https://www.goodreads.com/book/show/41150487-red-white-royal-blue",
-      "ku_status": null,
+      "ku_status": true,
       "last_checked": "2026-09-18"
     },
     {
       "title": "The Rom-Commers",
       "author": "Katherine Center",
       "genres": [
+        "Rom-Com",
         "Romance"
       ],
       "rating": 4.04,
       "pub_year": 2024,
       "goodreads_url": "https://www.goodreads.com/book/show/195790586-the-rom-commers",
-      "ku_status": null,
+      "ku_status": false,
       "last_checked": "2026-09-18"
     },
     {
@@ -335,31 +371,32 @@
       "rating": 4.0,
       "pub_year": 2022,
       "goodreads_url": "https://www.goodreads.com/book/show/125157226-flawless",
-      "ku_status": null,
+      "ku_status": true,
       "last_checked": "2026-09-18"
     },
     {
       "title": "A Not So Meet Cute (Cane Brothers, #1)",
       "author": "Meghan Quinn",
       "genres": [
+        "Rom-Com",
         "Romance"
       ],
       "rating": 4.0,
       "pub_year": 2021,
       "goodreads_url": "https://www.goodreads.com/book/show/58995736-a-not-so-meet-cute",
-      "ku_status": null,
+      "ku_status": false,
       "last_checked": "2026-09-18"
     },
     {
       "title": "Butcher & Blackbird (The Ruinous Love Trilogy, #1)",
       "author": "Brynne Weaver",
       "genres": [
-        "Romance"
+        "Rom-Com"
       ],
       "rating": 4.0,
       "pub_year": 2023,
       "goodreads_url": "https://www.goodreads.com/book/show/196915235-butcher-blackbird",
-      "ku_status": null,
+      "ku_status": true,
       "last_checked": "2026-09-18"
     }
   ]
