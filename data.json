@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T22:37:34.446222+00:00",
+  "generated_at": "2026-09-18T23:27:14.145328+00:00",
   "books": [
     {
       "title": "Fourth Wing (The Empyrean, #1)",
@@ -10,7 +10,7 @@
       "rating": 4.56,
       "pub_year": 2023,
       "goodreads_url": "https://www.goodreads.com/book/show/61431922-fourth-wing",
-      "ku_status": null,
+      "ku_status": false,
       "last_checked": "2026-09-18"
     },
     {
@@ -22,7 +22,7 @@
       "rating": 4.51,
       "pub_year": 2021,
       "goodreads_url": "https://www.goodreads.com/book/show/54493401-project-hail-mary",
-      "ku_status": null,
+      "ku_status": false,
       "last_checked": "2026-09-18"
     },
     {
@@ -34,7 +34,7 @@
       "rating": 4.43,
       "pub_year": 2020,
       "goodreads_url": "https://www.goodreads.com/book/show/211721806-dungeon-crawler-carl",
-      "ku_status": null,
+      "ku_status": true,
       "last_checked": "2026-09-18"
     },
     {
@@ -46,7 +46,7 @@
       "rating": 4.35,
       "pub_year": 2022,
       "goodreads_url": "https://www.goodreads.com/book/show/125460757-heartless",
-      "ku_status": null,
+      "ku_status": true,
       "last_checked": "2026-09-18"
     },
     {
@@ -58,7 +58,7 @@
       "rating": 4.33,
       "pub_year": 2024,
       "goodreads_url": "https://www.goodreads.com/book/show/195820807-just-for-the-summer",
-      "ku_status": null,
+      "ku_status": false,
       "last_checked": "2026-09-18"
     },
     {
@@ -70,7 +70,7 @@
       "rating": 4.29,
       "pub_year": 2023,
       "goodreads_url": "https://www.goodreads.com/book/show/61918816-yours-truly",
-      "ku_status": null,
+      "ku_status": false,
       "last_checked": "2026-09-18"
     },
     {
@@ -82,7 +82,7 @@
       "rating": 4.28,
       "pub_year": 2023,
       "goodreads_url": "https://www.goodreads.com/book/show/198132147-saint-richard-parker",
-      "ku_status": null,
+      "ku_status": false,
       "last_checked": "2026-09-18"
     },
     {
@@ -94,7 +94,7 @@
       "rating": 4.28,
       "pub_year": 2022,
       "goodreads_url": "https://www.goodreads.com/book/show/242528917-lessons-in-chemistry",
-      "ku_status": null,
+      "ku_status": false,
       "last_checked": "2026-09-18"
     },
     {
@@ -106,7 +106,7 @@
       "rating": 4.25,
       "pub_year": 2021,
       "goodreads_url": "https://www.goodreads.com/book/show/55710822-better-than-the-movies",
-      "ku_status": null,
+      "ku_status": false,
       "last_checked": "2026-09-18"
     },
     {
@@ -118,7 +118,7 @@
       "rating": 4.24,
       "pub_year": 2022,
       "goodreads_url": "https://www.goodreads.com/book/show/58684524-part-of-your-world",
-      "ku_status": null,
+      "ku_status": false,
       "last_checked": "2026-09-18"
     },
     {
@@ -130,7 +130,7 @@
       "rating": 4.2,
       "pub_year": 2019,
       "goodreads_url": "https://www.goodreads.com/book/show/41032121-the-risk",
-      "ku_status": null,
+      "ku_status": false,
       "last_checked": "2026-09-18"
     },
     {
@@ -142,7 +142,7 @@
       "rating": 4.19,
       "pub_year": 2018,
       "goodreads_url": "https://www.goodreads.com/book/show/36206591-love-and-other-words",
-      "ku_status": null,
+      "ku_status": false,
       "last_checked": "2026-09-18"
     },
     {
@@ -154,7 +154,7 @@
       "rating": 4.18,
       "pub_year": 2024,
       "goodreads_url": "https://www.goodreads.com/book/show/194802722-funny-story",
-      "ku_status": null,
+      "ku_status": false,
       "last_checked": "2026-09-18"
     },
     {
@@ -166,7 +166,7 @@
       "rating": 4.18,
       "pub_year": 2018,
       "goodreads_url": "https://www.goodreads.com/book/show/37683751-from-lukov-with-love",
-      "ku_status": null,
+      "ku_status": true,
       "last_checked": "2026-09-18"
     },
     {
@@ -178,7 +178,7 @@
       "rating": 4.17,
       "pub_year": 2020,
       "goodreads_url": "https://www.goodreads.com/book/show/50208350-the-happy-ever-after-playlist",
-      "ku_status": null,
+      "ku_status": false,
       "last_checked": "2026-09-18"
     },
     {
@@ -190,7 +190,7 @@
       "rating": 4.16,
       "pub_year": 2019,
       "goodreads_url": "https://www.goodreads.com/book/show/49127718-anxious-people",
-      "ku_status": null,
+      "ku_status": false,
       "last_checked": "2026-09-18"
     },
     {
@@ -202,7 +202,7 @@
       "rating": 4.14,
       "pub_year": 2023,
       "goodreads_url": "https://www.goodreads.com/book/show/199834495-the-seven-year-slip",
-      "ku_status": null,
+      "ku_status": false,
       "last_checked": "2026-09-18"
     },
     {
@@ -214,7 +214,7 @@
       "rating": 4.12,
       "pub_year": 2022,
       "goodreads_url": "https://www.goodreads.com/book/show/60060431-things-we-never-got-over",
-      "ku_status": null,
+      "ku_status": true,
       "last_checked": "2026-09-18"
     },
     {
@@ -226,7 +226,7 @@
       "rating": 4.1,
       "pub_year": 2018,
       "goodreads_url": "https://www.goodreads.com/book/show/38348476-calypso",
-      "ku_status": null,
+      "ku_status": false,
       "last_checked": "2026-09-18"
     },
     {
@@ -238,7 +238,7 @@
       "rating": 4.1,
       "pub_year": 2021,
       "goodreads_url": "https://www.goodreads.com/book/show/54508798-the-guncle",
-      "ku_status": null,
+      "ku_status": true,
       "last_checked": "2026-09-18"
     },
     {
@@ -250,7 +250,7 @@
       "rating": 4.09,
       "pub_year": 2021,
       "goodreads_url": "https://www.goodreads.com/book/show/56732449-the-love-hypothesis",
-      "ku_status": null,
+      "ku_status": false,
       "last_checked": "2026-09-18"
     },
     {
@@ -262,7 +262,7 @@
       "rating": 4.08,
       "pub_year": 2022,
       "goodreads_url": "https://www.goodreads.com/book/show/58690308-book-lovers",
-      "ku_status": null,
+      "ku_status": false,
       "last_checked": "2026-09-18"
     },
     {
@@ -274,7 +274,7 @@
       "rating": 4.08,
       "pub_year": 2023,
       "goodreads_url": "https://www.goodreads.com/book/show/61326735-love-theoretically",
-      "ku_status": null,
+      "ku_status": false,
       "last_checked": "2026-09-18"
     },
     {
@@ -286,7 +286,7 @@
       "rating": 4.07,
       "pub_year": 2021,
       "goodreads_url": "https://www.goodreads.com/book/show/62056013-twisted-games",
-      "ku_status": null,
+      "ku_status": true,
       "last_checked": "2026-09-18"
     },
     {
@@ -298,7 +298,7 @@
       "rating": 4.05,
       "pub_year": 2024,
       "goodreads_url": "https://www.goodreads.com/book/show/199797582-the-paradise-problem",
-      "ku_status": null,
+      "ku_status": false,
       "last_checked": "2026-09-18"
     },
     {
