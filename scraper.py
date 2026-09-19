@@ -59,6 +59,21 @@ GENRE_SHELF_TAGS = {
     ],
 }
 
+# For these genres, drop any candidate that also shows up on one of these
+# other shelf tags — e.g. Fantasy picks are for a reader who doesn't want
+# romance or YA bleeding in via a broad "fantasy" tag.
+GENRE_EXCLUDE_TAGS = {
+    "Fantasy": [
+        "romance",
+        "romantasy",
+        "fantasy-romance",
+        "new-adult-romance",
+        "young-adult",
+        "ya",
+        "teen",
+    ],
+}
+
 AMAZON_DOMAIN = "amazon.com.au"  # change if you're on a different KU marketplace
 
 USER_AGENT = (
@@ -157,6 +172,21 @@ def scrape_shelf(tag):
     return entries
 
 
+def collect_exclude_ids():
+    """Returns dict genre -> set of book_ids to keep out of that genre,
+    regardless of rating/year (we just need the id overlap)."""
+    exclude_ids = {}
+    for genre, tags in GENRE_EXCLUDE_TAGS.items():
+        ids = set()
+        for tag in tags:
+            print(f"Scraping Goodreads shelf '{tag}' (exclude from {genre})...")
+            for e in scrape_shelf(tag):
+                ids.add(e["book_id"])
+            polite_sleep()
+        exclude_ids[genre] = ids
+    return exclude_ids
+
+
 def collect_candidates(current_year):
     """Returns dict keyed by book_id -> book dict (with 'genres' set)."""
     candidates = {}
@@ -176,6 +206,15 @@ def collect_candidates(current_year):
                 else:
                     e["genres"] = {genre}
                     candidates[e["book_id"]] = e
+
+    exclude_ids = collect_exclude_ids()
+    for genre, ids in exclude_ids.items():
+        for book_id, c in list(candidates.items()):
+            if genre in c["genres"] and book_id in ids:
+                c["genres"].discard(genre)
+    # Drop anything left with no genre at all (it only qualified via an
+    # excluded genre).
+    candidates = {bid: c for bid, c in candidates.items() if c["genres"]}
     return candidates
 
 

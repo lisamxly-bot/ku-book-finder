@@ -18,7 +18,19 @@ Goodreads page → hit "Want to Read" there as usual.
   badge. Writes `data.json`.
 - **`index.html` / `app.js` / `style.css`** — a static page that reads
   `data.json` and lets you filter by genre, minimum rating, publish-year
-  range, and Kindle-Unlimited-only, sorted by rating or year.
+  range, and Kindle-Unlimited-only, sorted by rating or year. Each row has
+  a **"Not interested"** button (already read it / don't want it) — dismissed
+  books are hidden and remembered in that browser's local storage (so it's
+  per-device, not synced), and the rest of the list naturally closes the
+  gap since it's a full filtered list, not a capped top-N. A small link
+  shows how many you've dismissed and lets you bring them back.
+
+Fantasy is a special case: it's meant to be romance/YA-free (for a reader
+who wants neither), so `GENRE_EXCLUDE_TAGS` in `scraper.py` drops any
+Fantasy candidate that also shows up on Goodreads' romance/romantasy/
+young-adult/teen shelves, even if it independently qualifies via a fantasy
+tag. Add more exclude tags there if something YA-adjacent still slips
+through.
 
 No dependencies beyond Python 3 and `curl` (both come with macOS).
 

@@ -1,5 +1,6 @@
 const YEARS_BACK = 8;
 const currentYear = new Date().getFullYear();
+const DISMISSED_KEY = "ku-finder-dismissed";
 
 const els = {
   genre: document.getElementById("genre"),
@@ -12,12 +13,33 @@ const els = {
   count: document.getElementById("result-count"),
   empty: document.getElementById("empty-state"),
   generatedAt: document.getElementById("generated-at"),
+  hiddenToggle: document.getElementById("hidden-toggle"),
+  hiddenToggleLink: document.getElementById("hidden-toggle-link"),
 };
 
 els.yearFrom.value = currentYear - YEARS_BACK;
 els.yearTo.value = currentYear;
 
 let books = [];
+let showHidden = false;
+
+function loadDismissed() {
+  try {
+    return new Set(JSON.parse(localStorage.getItem(DISMISSED_KEY) || "[]"));
+  } catch {
+    return new Set();
+  }
+}
+
+function saveDismissed(set) {
+  try {
+    localStorage.setItem(DISMISSED_KEY, JSON.stringify([...set]));
+  } catch {
+    // localStorage unavailable — dismissals just won't persist this session.
+  }
+}
+
+let dismissed = loadDismissed();
 
 function escapeHtml(s) {
   const div = document.createElement("div");
@@ -39,7 +61,7 @@ function render() {
   const kuOnly = els.kuOnly.checked;
   const sortBy = els.sortBy.value;
 
-  let filtered = books.filter((b) => {
+  let matching = books.filter((b) => {
     if (genre !== "all" && !b.genres.includes(genre)) return false;
     if (b.rating < minRating) return false;
     if (b.pub_year < yearFrom || b.pub_year > yearTo) return false;
@@ -47,14 +69,21 @@ function render() {
     return true;
   });
 
-  filtered.sort((a, b) =>
+  matching.sort((a, b) =>
     sortBy === "year" ? b.pub_year - a.pub_year : b.rating - a.rating
   );
 
+  const hiddenCount = matching.filter((b) => dismissed.has(b.goodreads_url)).length;
+  const visible = showHidden
+    ? matching
+    : matching.filter((b) => !dismissed.has(b.goodreads_url));
+
   els.body.innerHTML = "";
-  for (const b of filtered) {
+  for (const b of visible) {
     const ku = kuLabel(b.ku_status);
+    const isDismissed = dismissed.has(b.goodreads_url);
     const tr = document.createElement("tr");
+    if (isDismissed) tr.classList.add("dismissed-row");
     tr.innerHTML = `
       <td><a href="${b.goodreads_url}" target="_blank" rel="noopener">${escapeHtml(b.title)}</a></td>
       <td>${escapeHtml(b.author)}</td>
@@ -62,13 +91,25 @@ function render() {
       <td>${b.rating.toFixed(2)}</td>
       <td>${b.pub_year}</td>
       <td><span class="ku-badge ${ku.cls}">${ku.text}</span></td>
+      <td><button type="button" class="dismiss-btn" data-url="${escapeHtml(b.goodreads_url)}">${isDismissed ? "Restore" : "Not interested"}</button></td>
     `;
     els.body.appendChild(tr);
   }
 
-  els.count.textContent = `${filtered.length} book${filtered.length === 1 ? "" : "s"}`;
-  els.empty.hidden = filtered.length !== 0;
-  document.getElementById("results").hidden = filtered.length === 0;
+  // Backfill happens for free here: the table always shows every remaining
+  // match, so dismissing one just leaves the next-best match already in view.
+  els.count.textContent = `${visible.length} book${visible.length === 1 ? "" : "s"}`;
+  els.empty.hidden = visible.length !== 0;
+  document.getElementById("results").hidden = visible.length === 0;
+
+  if (hiddenCount > 0) {
+    els.hiddenToggle.hidden = false;
+    els.hiddenToggleLink.textContent = showHidden
+      ? `Hide the ${hiddenCount} you've dismissed`
+      : `${hiddenCount} dismissed — show them`;
+  } else {
+    els.hiddenToggle.hidden = true;
+  }
 }
 
 async function init() {
@@ -83,6 +124,25 @@ async function init() {
     el.addEventListener("input", render);
     el.addEventListener("change", render);
   }
+
+  els.body.addEventListener("click", (e) => {
+    const btn = e.target.closest(".dismiss-btn");
+    if (!btn) return;
+    const url = btn.dataset.url;
+    if (dismissed.has(url)) {
+      dismissed.delete(url);
+    } else {
+      dismissed.add(url);
+    }
+    saveDismissed(dismissed);
+    render();
+  });
+
+  els.hiddenToggleLink.addEventListener("click", (e) => {
+    e.preventDefault();
+    showHidden = !showHidden;
+    render();
+  });
 
   render();
 }

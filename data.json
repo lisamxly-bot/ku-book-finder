@@ -1,30 +1,17 @@
 {
-  "generated_at": "2026-09-18T23:52:06.651296+00:00",
+  "generated_at": "2026-09-19T00:16:03.104316+00:00",
   "books": [
-    {
-      "title": "Kingdom of Ash (Throne of Glass, #7)",
-      "author": "Sarah J. Maas",
-      "genres": [
-        "Fantasy"
-      ],
-      "rating": 4.71,
-      "pub_year": 2018,
-      "goodreads_url": "https://www.goodreads.com/book/show/76715522-kingdom-of-ash",
-      "ku_status": false,
-      "last_checked": "2026-09-18"
-    },
     {
       "title": "Fourth Wing (The Empyrean, #1)",
       "author": "Rebecca Yarros",
       "genres": [
-        "Fantasy",
         "Romance"
       ],
       "rating": 4.56,
       "pub_year": 2023,
       "goodreads_url": "https://www.goodreads.com/book/show/61431922-fourth-wing",
       "ku_status": false,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "Rhythm of War (The Stormlight Archive, #4)",
@@ -36,7 +23,7 @@
       "pub_year": 2020,
       "goodreads_url": "https://www.goodreads.com/book/show/49021976-rhythm-of-war",
       "ku_status": false,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "Project Hail Mary",
@@ -48,7 +35,7 @@
       "pub_year": 2021,
       "goodreads_url": "https://www.goodreads.com/book/show/54493401-project-hail-mary",
       "ku_status": false,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "Carl's Doomsday Scenario (Dungeon Crawler Carl, #2)",
@@ -60,19 +47,7 @@
       "pub_year": 2021,
       "goodreads_url": "https://www.goodreads.com/book/show/212393364-carl-s-doomsday-scenario",
       "ku_status": true,
-      "last_checked": "2026-09-18"
-    },
-    {
-      "title": "A \u200bCourt of Silver Flames (A Court of Thorns and Roses, #5)",
-      "author": "Sarah J. Maas",
-      "genres": [
-        "Fantasy"
-      ],
-      "rating": 4.45,
-      "pub_year": 2021,
-      "goodreads_url": "https://www.goodreads.com/book/show/53138095-a-court-of-silver-flames",
-      "ku_status": false,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "Dungeon Crawler Carl (Dungeon Crawler Carl, #1)",
@@ -84,19 +59,7 @@
       "pub_year": 2020,
       "goodreads_url": "https://www.goodreads.com/book/show/211721806-dungeon-crawler-carl",
       "ku_status": true,
-      "last_checked": "2026-09-18"
-    },
-    {
-      "title": "Iron Flame (The Empyrean, #2)",
-      "author": "Rebecca Yarros",
-      "genres": [
-        "Fantasy"
-      ],
-      "rating": 4.36,
-      "pub_year": 2023,
-      "goodreads_url": "https://www.goodreads.com/book/show/90202302-iron-flame",
-      "ku_status": false,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "Heartless (Chestnut Springs, #2)",
@@ -108,7 +71,7 @@
       "pub_year": 2022,
       "goodreads_url": "https://www.goodreads.com/book/show/125460757-heartless",
       "ku_status": true,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "Just for the Summer (Part of Your World, #3)",
@@ -121,7 +84,7 @@
       "pub_year": 2024,
       "goodreads_url": "https://www.goodreads.com/book/show/195820807-just-for-the-summer",
       "ku_status": false,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "Yours Truly (Part of Your World, #2)",
@@ -134,7 +97,7 @@
       "pub_year": 2023,
       "goodreads_url": "https://www.goodreads.com/book/show/61918816-yours-truly",
       "ku_status": false,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "Saint Richard Parker",
@@ -146,7 +109,7 @@
       "pub_year": 2023,
       "goodreads_url": "https://www.goodreads.com/book/show/198132147-saint-richard-parker",
       "ku_status": false,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "Lessons in Chemistry",
@@ -158,19 +121,7 @@
       "pub_year": 2022,
       "goodreads_url": "https://www.goodreads.com/book/show/242528917-lessons-in-chemistry",
       "ku_status": false,
-      "last_checked": "2026-09-18"
-    },
-    {
-      "title": "The Wicked King (The Folk of the Air, #2)",
-      "author": "Holly Black",
-      "genres": [
-        "Fantasy"
-      ],
-      "rating": 4.27,
-      "pub_year": 2019,
-      "goodreads_url": "https://www.goodreads.com/book/show/26032887-the-wicked-king",
-      "ku_status": true,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "Better Than the Movies (Better Than the Movies, #1)",
@@ -183,7 +134,7 @@
       "pub_year": 2021,
       "goodreads_url": "https://www.goodreads.com/book/show/55710822-better-than-the-movies",
       "ku_status": false,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "Part of Your World (Part of Your World, #1)",
@@ -196,7 +147,7 @@
       "pub_year": 2022,
       "goodreads_url": "https://www.goodreads.com/book/show/58684524-part-of-your-world",
       "ku_status": false,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "The Risk (Briar U, #2)",
@@ -208,7 +159,7 @@
       "pub_year": 2019,
       "goodreads_url": "https://www.goodreads.com/book/show/41032121-the-risk",
       "ku_status": false,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "Love and Other Words",
@@ -220,7 +171,7 @@
       "pub_year": 2018,
       "goodreads_url": "https://www.goodreads.com/book/show/36206591-love-and-other-words",
       "ku_status": false,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "Funny Story",
@@ -233,7 +184,7 @@
       "pub_year": 2024,
       "goodreads_url": "https://www.goodreads.com/book/show/194802722-funny-story",
       "ku_status": false,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "From Lukov with Love",
@@ -245,7 +196,7 @@
       "pub_year": 2018,
       "goodreads_url": "https://www.goodreads.com/book/show/37683751-from-lukov-with-love",
       "ku_status": true,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "The Happy Ever After Playlist (The Friend Zone, #2)",
@@ -257,7 +208,7 @@
       "pub_year": 2020,
       "goodreads_url": "https://www.goodreads.com/book/show/50208350-the-happy-ever-after-playlist",
       "ku_status": false,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "Anxious People",
@@ -269,7 +220,7 @@
       "pub_year": 2019,
       "goodreads_url": "https://www.goodreads.com/book/show/49127718-anxious-people",
       "ku_status": false,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "The Invisible Life of Addie LaRue",
@@ -281,7 +232,7 @@
       "pub_year": 2020,
       "goodreads_url": "https://www.goodreads.com/book/show/50623864-the-invisible-life-of-addie-larue",
       "ku_status": false,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "The Priory of the Orange Tree (The Roots of Chaos, #1)",
@@ -293,7 +244,7 @@
       "pub_year": 2019,
       "goodreads_url": "https://www.goodreads.com/book/show/40275288-the-priory-of-the-orange-tree",
       "ku_status": false,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "The Poppy War (The Poppy War, #1)",
@@ -305,7 +256,7 @@
       "pub_year": 2018,
       "goodreads_url": "https://www.goodreads.com/book/show/35068705-the-poppy-war",
       "ku_status": true,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "The Seven Year Slip",
@@ -318,7 +269,7 @@
       "pub_year": 2023,
       "goodreads_url": "https://www.goodreads.com/book/show/199834495-the-seven-year-slip",
       "ku_status": false,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "Things We Never Got Over (Knockemout, #1)",
@@ -331,7 +282,7 @@
       "pub_year": 2022,
       "goodreads_url": "https://www.goodreads.com/book/show/60060431-things-we-never-got-over",
       "ku_status": true,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "Calypso",
@@ -343,7 +294,7 @@
       "pub_year": 2018,
       "goodreads_url": "https://www.goodreads.com/book/show/38348476-calypso",
       "ku_status": false,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "The Guncle (The Guncle, #1)",
@@ -355,7 +306,7 @@
       "pub_year": 2021,
       "goodreads_url": "https://www.goodreads.com/book/show/54508798-the-guncle",
       "ku_status": true,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "The Love Hypothesis",
@@ -368,7 +319,7 @@
       "pub_year": 2021,
       "goodreads_url": "https://www.goodreads.com/book/show/56732449-the-love-hypothesis",
       "ku_status": false,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "Book Lovers",
@@ -381,7 +332,7 @@
       "pub_year": 2022,
       "goodreads_url": "https://www.goodreads.com/book/show/58690308-book-lovers",
       "ku_status": false,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "Love, Theoretically",
@@ -394,7 +345,7 @@
       "pub_year": 2023,
       "goodreads_url": "https://www.goodreads.com/book/show/61326735-love-theoretically",
       "ku_status": false,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "Twisted Games (Twisted, #2)",
@@ -406,7 +357,7 @@
       "pub_year": 2021,
       "goodreads_url": "https://www.goodreads.com/book/show/62056013-twisted-games",
       "ku_status": true,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "The Paradise Problem",
@@ -418,7 +369,7 @@
       "pub_year": 2024,
       "goodreads_url": "https://www.goodreads.com/book/show/199797582-the-paradise-problem",
       "ku_status": false,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "Red, White & Royal Blue (Red, White & Royal Blue, #1)",
@@ -432,7 +383,7 @@
       "pub_year": 2019,
       "goodreads_url": "https://www.goodreads.com/book/show/41150487-red-white-royal-blue",
       "ku_status": true,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "The Rom-Commers",
@@ -445,7 +396,7 @@
       "pub_year": 2024,
       "goodreads_url": "https://www.goodreads.com/book/show/195790586-the-rom-commers",
       "ku_status": false,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "Flawless (Chestnut Springs, #1)",
@@ -457,7 +408,7 @@
       "pub_year": 2022,
       "goodreads_url": "https://www.goodreads.com/book/show/125157226-flawless",
       "ku_status": true,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "A Not So Meet Cute (Cane Brothers, #1)",
@@ -470,19 +421,7 @@
       "pub_year": 2021,
       "goodreads_url": "https://www.goodreads.com/book/show/58995736-a-not-so-meet-cute",
       "ku_status": false,
-      "last_checked": "2026-09-18"
-    },
-    {
-      "title": "The Cruel Prince (The Folk of the Air, #1)",
-      "author": "Holly Black",
-      "genres": [
-        "Fantasy"
-      ],
-      "rating": 4.0,
-      "pub_year": 2018,
-      "goodreads_url": "https://www.goodreads.com/book/show/26032825-the-cruel-prince",
-      "ku_status": true,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     },
     {
       "title": "Butcher & Blackbird (The Ruinous Love Trilogy, #1)",
@@ -494,7 +433,7 @@
       "pub_year": 2023,
       "goodreads_url": "https://www.goodreads.com/book/show/196915235-butcher-blackbird",
       "ku_status": true,
-      "last_checked": "2026-09-18"
+      "last_checked": "2026-09-19"
     }
   ]
 }

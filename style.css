@@ -111,3 +111,21 @@ a { color: inherit; }
 .ku-yes { color: var(--yes); }
 .ku-no { color: var(--no); }
 .ku-unknown { color: var(--unknown); }
+
+.dismiss-btn {
+  font-size: 0.78rem;
+  padding: 0.25rem 0.55rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--muted);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dismiss-btn:hover { color: var(--fg); border-color: var(--fg); }
+
+.dismissed-row { opacity: 0.5; }
+
+#hidden-toggle { margin-top: 0.5rem; }
+#hidden-toggle a { color: var(--muted); text-decoration: underline; cursor: pointer; }
